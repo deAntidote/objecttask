@@ -1,3 +1,5 @@
+<h1>This is the first assignmwnt</h1>
+
 class MyClass {
     // This is a Static property
     static staticProperty = "I am a Web 3.0 Genie";
@@ -11,12 +13,12 @@ class MyClass {
   
     // Instance method
     instanceMethod() {
-      return "I am an instance method with property value: ${this.instanceProperty};"
+      return "let return an instance method now"
     }
   
     // Static method
     static staticMethod() {
-      return "I am a static method with static property value: ${MyClass.staticProperty};"
+      return "let return a static method now"
     }
   }
   
@@ -24,9 +26,9 @@ class MyClass {
   const myInstance = new MyClass("Instance Property Value");
   
   // Accessing instance property and method
-  console.log(myInstance.instanceProperty); // Output: Instance Property Value
-  console.log(myInstance.instanceMethod()); // Output: I am an instance method with property value: Instance Property Value
+  console.log(myInstance.instanceProperty); 
+  console.log(myInstance.instanceMethod()); 
   
-  // Accessing static property and method without an instance
-  console.log(MyClass.staticProperty); // Output: I am a static property
-  console.log(MyClass.staticMethod()); // Output: I am a static method with static property value: I am a static property
+ 
+  console.log(MyClass.staticProperty); 
+  console.log(MyClass.staticMethod()); 
